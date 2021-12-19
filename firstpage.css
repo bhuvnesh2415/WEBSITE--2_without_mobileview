@@ -1,0 +1,1541 @@
+
+   
+@font-face {
+  font-family: "AvertaStd-Semibold";
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot");
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.svg#AvertaStd-Semibold")
+      format("svg");
+}
+@font-face {
+  font-family: "AvertaStd-Regular";
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot");
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.svg#AvertaStd-Regular")
+      format("svg");
+}
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.allcode{
+  font-size: 1vw;
+}
+/* navbar */
+.logoofalp{
+  margin-left: 3.5em;
+}
+.navbar{
+
+
+  
+display: flex;
+align-items: center;
+background: #F5F5F5;
+border-radius: 0.2em;
+height: 3.3vw;
+justify-content: space-around;
+}
+.SearchBBss{
+display: flex;
+margin-left: 5em;
+}
+.SearchBBss div>input {
+
+border-radius: 0 0.2em 0.2em 0;
+border: none;
+padding-left: 0.8vh;
+width: 30vw;
+height:2.2vw;
+font-size: 1.2em;
+align-items: center;
+border: none;
+outline: none;
+}
+
+.SearchBBss div>input::placeholder{
+font-family:Red Hat Display;
+font-size: 1vw;
+letter-spacing: 0.06em;
+padding-left:0.8vh;
+color: #808080;
+
+}
+
+.searchiconbb{
+align-items: center;
+background-color: white;
+height:2.2vw;
+width: 1.8em;
+font-weight: bolder;
+font-size: larger;
+padding-left: 0.5em;
+border-radius: 0.2em 0 0 0.2em;
+color:  #0759E4;
+}
+
+
+.ONE{
+  margin-left: 12em;
+}
+
+.ONE .bhuy{
+  
+  text-decoration: none;
+  font-family:Red Hat Display;
+  font-size: 1vw;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: #000000;
+  }
+
+.DropDownMenu {
+   
+  position:absolute;
+margin-top: 0em; 
+margin-left:-9.5em ; 
+
+padding: 1vw 0.8vw 1vw 1vw;
+  background-color: #ffffff;
+  color: white;
+  display: none;
+  cursor:pointer;
+  border-radius: 0.7em;
+    box-shadow: 0.5em 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.25); 
+  
+  }
+  .firsman{
+      padding-top: 0.3em;
+  }
+  .man{
+    font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 2vw;
+line-height: 2em;
+
+color: #121212;
+
+
+  }
+  .parainman{
+    font-family: Red Hat Display;
+font-style: normal;
+font-weight: 500;
+font-size: 1vw;
+padding-bottom: 0.5vw;
+/* identical to box height */
+
+
+color: #808080;
+
+  }
+.DropDownMenu li{
+  font-family:Red Hat Display;
+  font-size: 1vw;
+line-height: 1.4em;
+letter-spacing: 0.02em;
+}
+
+.dropicon{
+  color: rgb(0, 0, 0);
+  transition: all 0.3 ease;
+cursor: pointer;  
+font-size:0.7em;
+}
+
+
+
+
+.luke li:hover .DropDownMenu{
+  display:block;
+  
+}
+.luke li:hover .dropicon{
+  transform: rotate(180deg);
+}
+
+
+
+.wi .SubDropDownMenu1 li:hover{
+  color :#2851E7;
+   
+  
+  
+}
+.wi .SubDropDownMenu2 li:hover{
+  color :#2851E7;
+  
+  
+  
+}
+.wi .SubDropDownMenu3 li:hover{
+  color :#2851E7;
+  
+  
+}
+.wi .SubDropDownMenu4 li:hover{
+  color :#2851E7;
+  
+  
+  
+}.wi .SubDropDownMenu5 li:hover{
+  color :#2851E7;
+  
+  
+  
+}
+.wi .SubDropDownMenu6 li:hover{
+  color :#2851E7;
+  
+  
+  
+}
+.bhu .DropDownMenu li:hover{
+  color :#2851E7;
+}
+
+
+.SubDropDownMenu1>li{
+  padding-bottom: 0.3vw;
+}
+
+.SubDropDownMenu2>li{
+  padding-bottom: 0.3vw;
+}
+
+.SubDropDownMenu3>li{
+  padding-bottom: 0.3vw;
+}
+
+.SubDropDownMenu4>li{
+  padding-bottom: 0.3vw;
+}
+
+.SubDropDownMenu5>li{
+  padding-bottom: 0.3vw;
+}
+
+
+
+.SubDropDownMenu1 {
+ 
+  position: absolute;
+  width: 8.2em;
+  left: 17.4vw;
+  top: -0.01em;;
+  
+padding: 1vw 1vw 1vw 1vw;
+background-color: #ffffff;
+color: white;
+display: none;
+cursor:pointer;
+border-radius: 0.7em;
+  box-shadow: 0.5em 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.25); 
+ }
+.DropDownMenu li:hover .SubDropDownMenu1{
+  display: block;
+  color: #000000;
+  
+}
+.SubDropDownMenu2 {
+  position: absolute;
+  width: 8.2em;
+  left: 17.4vw;  top: 1.38em;
+ 
+padding: 1vw 1vw 1vw 1vw;
+background-color: #ffffff;
+color: white;
+display: none;
+cursor:pointer;
+border-radius: 0.7em;
+  box-shadow: 0.5em 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.25); 
+
+}
+
+.DropDownMenu li:hover .SubDropDownMenu2{
+  display: block;
+color: #121212;
+}
+
+
+.SubDropDownMenu3 {
+  position: absolute;
+  width: 8.2em;
+  left: 17.4vw;  
+  top: 12em;
+  
+padding: 1vw 1vw 1vw 1vw;
+background-color: #ffffff;
+color: white;
+display: none;
+cursor:pointer;
+border-radius: 0.7em;
+  box-shadow: 0.5em 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.25); 
+
+
+}
+
+.DropDownMenu li:hover .SubDropDownMenu3{
+  display: block;
+  color: #000000;
+  
+}
+.SubDropDownMenu4 {
+  position: absolute;
+  width: 8.2em;
+  left: 17.4vw;  
+    top:15em;
+  
+padding: 1vw 1vw 1vw 1vw;
+background-color: #ffffff;
+color: white;
+display: none;
+cursor:pointer;
+border-radius: 0.7em;
+  box-shadow: 0.5em 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.25); 
+
+
+}
+
+.DropDownMenu li:hover .SubDropDownMenu4{
+  display: block;
+  color: #000000;
+  
+}
+.SubDropDownMenu5 {
+  position: absolute;
+  width: 8.2em;
+  left: 17.4vw; 
+     top: 8.5em;
+ 
+padding: 1vw 1vw 1vw 1vw;
+background-color: #ffffff;
+color: white;
+display: none;
+cursor:pointer;
+border-radius: 0.7em;
+  box-shadow: 0.5em 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.25); 
+
+
+}
+
+.DropDownMenu li:hover .SubDropDownMenu5{
+  display: block;
+  color: #000000;
+  
+}
+
+
+
+.three{ 
+  text-decoration: none;
+  font-family: AvertaStd-Semibold;
+  font-size: 1.2vw;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.to1{
+  margin-left: 5.55em;
+}
+.to2{
+  margin-left: 5.9em;
+}
+.to3{
+  margin-left:6.45em ;
+}
+
+.to4{
+  margin-left: 5.6em;
+}
+
+.to5{
+  margin-left: 4.84em;
+}
+
+.to6{
+  margin-left: 0.09em;
+}
+
+
+.poiu123{
+  display: flex;
+}
+
+
+.three{
+     margin-left: -1em;
+ 
+  }
+  
+  
+.three>h5{
+  text-decoration: none;
+  font-family: Red Hat Display;
+  font-size: 1vw;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  
+  color: #000000;
+}
+.four{
+   text-decoration: none;
+  font-family: Red Hat Display;
+  margin-left: -1em;
+  font-weight: 900;
+
+  letter-spacing: 0.06em;
+  color: #000000;
+  margin-right: 3.5em;
+
+  }
+
+  .four>input{
+      text-decoration: none;
+  font-family: Red Hat Display;
+  letter-spacing: 0.06em;
+  border: none;
+  font-size: 1vw;
+      height: 2.2vw;
+      width: 5.5vw;
+      border-radius: 0.4vw;
+      background-color: #0759E4;
+      color: #ffffff;
+     
+  }
+/* firstpart */
+.firstpart{
+  display: flex;
+  margin-top: 5em;
+  margin-left: 5.4em;
+  width: 89.7vw;
+}
+.ComeWithUS{
+  
+  margin-right: 6em;
+ 
+  font-family: Red Hat Display;
+  font-size: 5em;
+  font-weight: 900;
+}
+.Explorecoursesandstudy{
+  font-family: Red Hat Display;
+width: 30em;
+font-size: 1.3em;
+margin-top: 2em;
+
+  color: #808080;
+
+}
+.GetStarted{
+text-decoration: none;
+font-family: Red Hat Display;
+letter-spacing: 0.06em;
+border: none;
+font-size: 1vw;
+margin-top: 2em;
+    height: 2.2vw;
+    width: 7vw;
+    border-radius: 0.4vw;
+    background-color: #0759E4;
+    color: #ffffff;
+   
+}
+
+/* secondpart */
+.secondpart{ display: flex;
+margin-left: 5.4em;
+margin-bottom: 5.4em;
+width: 88.7vw;
+}
+.secondone{
+
+width: 18vw;
+}
+.mgsecondpart{
+width: 5vw;
+height: 5vw;
+}
+.OneOnOne{
+font-family: Red Hat Display;
+font-size: 1.5vw;
+font-weight: 900;
+
+}
+.Personalizedclasses
+{color: #808080;
+font-family: Red Hat Display;
+font-size: 1.1em;
+}
+.secondsecond{
+
+width: 18vw;
+margin-left: 3em;
+}
+
+.secondthree{
+
+width: 18vw;
+margin-left: 3em;
+}
+.secondfour{
+
+width: 18vw;
+margin-left: 3em;
+}
+.lsticon{
+margin-left: 3em;
+margin-top: 2.5em;
+cursor: pointer;
+}
+
+/* thirdpart */
+
+.thirdpart{
+background-color: #F5F8FE;
+padding-top: 2.5em;
+padding-bottom: 2.5em;
+}
+.ChooseYourTarget{
+font-family: Red Hat Display;
+font-size: 1.1em;
+font-weight: 600;
+text-align: center;
+}
+.Letusknowwhere{
+font-family: Red Hat Display;
+font-size: 1.1em;
+font-weight: 500;
+text-align: center;
+padding-top: 0.5em;
+}
+
+
+
+
+.component-4{
+padding-bottom: 2.5em;
+
+}
+
+
+
+
+.slider{
+font-size:1.4vw;
+width:98.2vw;
+overflow:hidden;
+margin:1em 0em;
+
+}
+
+.slider-inner{
+display:flex;
+transition:transform 0.3s;
+}
+
+.box
+{ 
+width:12em;
+flex-shrink:0;
+margin-right: 2.5em;
+height:8em;
+background: #FFFFFF;
+transition:.2s;
+border-radius: 0.3em;
+}
+
+.box:hover
+{
+transform:scale(102%);
+}
+
+
+.box-label
+{
+text-align:center;
+font-family: AvertaStd-Semibold;
+letter-spacing: 0.02em;
+color: #121212;
+padding-top: 0.7em;
+}
+
+.box-svg
+{ 
+text-align:center;
+padding-top: 1em;
+}
+
+
+
+
+/* Slider process start */
+
+.next
+{
+position:absolute;
+background: #2851E7;
+box-shadow: 0px 0px 35px rgba(13, 25, 163, 0.23);
+border-radius:50em;
+right:46vw;
+margin-top:1.2vw;
+border:none;
+height:3vw;
+width:3vw;
+transition:0.3s
+}
+
+.next:hover{transform:scale(1.05)}
+
+.prev
+{
+position:absolute;
+
+background: #2851E7;
+box-shadow: 0px 0px 2em rgba(13, 25, 163, 0.23);
+border-radius:50em;
+border:none;
+margin-top:1.2vw;
+margin-left:1vw;
+
+left:44.8vw;
+height:3vw;
+width:3vw;
+transition:0.3s;
+}
+
+.prev:hover{transform:scale(1.05)}
+
+.iconicon{
+color:#ffffff;
+font-size:3vw;
+cursor: pointer;
+
+align-items: center;
+}
+
+.prev-icon{transform: rotate(-180deg);}
+
+
+/* fourthpart */
+
+.fourthpart{
+background-color: #ffffff;
+padding-top: 2.5em;
+padding-bottom: 2.5em;
+
+margin-left: 5.4em;
+margin-bottom: 5.4em;
+width: 88.7vw;
+
+}
+.OurFaculties{
+font-family: Red Hat Display;
+font-size: 1.8em;
+font-weight: 900;
+text-align: center;
+}
+.We’rehavingIndia’s{
+font-family: Red Hat Display;
+font-size: 1em;
+font-weight: 900;
+text-align: center;
+color: #808080;
+padding-top: 0.5em;
+}
+.faculitypart{
+display: flex;
+padding-top: 2em;
+}
+.fourthfirst{
+width: 22.175vw;
+text-align: center;
+}
+.fourthsecond{
+
+width: 22.175vw;
+text-align: center;
+margin-left: 3em;
+
+}
+.fourththird{
+
+width: 22.175vw;
+text-align: center;
+margin-left: 3em;
+
+}
+.fourthfourth{
+
+width: 22.175vw;
+text-align: center;
+margin-left: 3em;
+
+}
+.nameoffaculity{
+font-family: Red Hat Display;
+font-weight: 900;
+font-size: 1.2vw;
+color: #000000;
+}
+.expoffaculity{
+font-family: Red Hat Display;
+font-weight: 900;
+font-size: 1vw;
+color: #808080;
+
+
+}
+
+
+/* fifthpart */
+
+.fifthpart{
+background-color: #ffffff;
+padding-top: 2.5em;
+padding-bottom: 2.5em;
+
+margin-left: 5.4em;
+margin-bottom: 1.4em;
+width: 88.7vw;
+}
+.fifthflex{
+display: flex;
+}
+.imagefifth{
+width: 25vw;
+height: 25vw;
+}
+.fifthimgwrite{
+margin-left:14em;
+}
+.CertifiedCourses{
+font-family: Red Hat Display;
+font-weight: 900;
+font-size: 2vw; 
+}
+.Loremipsumdolorsit{
+font-family: Red Hat Display;
+font-weight: 900;
+font-size: 1.2vw; 
+padding-top: 1em;
+padding-bottom: 1em;
+color: #808080;
+}
+.Explore{
+font-family: Red Hat Display;
+font-weight: 900;
+font-size: 1.2vw; 
+color: #2851E7;
+}
+
+
+.fifthflexright{
+display: flex;
+padding-top: 2em;
+}
+
+.fifthimgwriteright{
+margin-right: 14em;
+
+}
+.CertifiedCoursesright{
+font-family: Red Hat Display;
+font-weight: 900;
+font-size: 2vw; 
+}
+.Loremipsumdolorsitright{
+font-family: Red Hat Display;
+font-weight: 900;
+font-size: 1.2vw; 
+padding-top: 1em;
+padding-bottom: 1em;
+color: #808080;
+}
+.Exploreright{
+font-family: Red Hat Display;
+font-weight: 900;
+font-size: 1.2vw; 
+color: #2851E7;
+}
+.fifthflex20{
+display: flex;
+padding-top: 2em;
+}
+
+/* sixthpart */
+
+.sixthpart{
+margin-left: 5.4em;
+width: 88.7vw;
+padding-bottom: 6.5vw;
+overflow: hidden;
+
+}
+.OurResults{
+font-family: Red Hat Display;
+font-weight: 900;
+font-size: 1.5vw;
+text-align: center;
+}
+.Wejustdon’t{
+font-family: Red Hat Display;
+font-weight: 900;
+font-size: 1vw;
+padding-top: 1em;
+padding-bottom: 1em;
+color: #808080;
+text-align: center;
+}
+.img1our1{
+align-items: center;
+width: 8vw;
+height: 8vw;
+margin-top: 0.8em;
+margin-left: 0.1em;
+
+}
+.img1our{
+width: 9.5vw;
+height: 9.5vw;
+border-radius: 15vw;
+background: rgba(40, 81, 231, 0.15);text-align: center;
+margin-left: 5.5em;
+}
+.flexourresult{
+width: 180vw;
+display: flex;
+transform: translateX(0);
+}
+.flexourresult1{
+width: 23vw;
+text-align: center;
+margin-right: 12vw;
+
+}
+.firsthalf{
+display: flex;
+width: 100vw;
+}
+.secondhalf{
+display: flex;
+width: 100vw;
+}
+.flexourresult2{
+margin-right: 12vw;
+}
+.ninetyninepointseven{
+margin-top: 0.5em;
+margin-bottom: 0.3em;
+font-family: Red Hat Display;
+font-weight: 900;
+font-size: 2vw;
+color: #2851E7;
+}
+.CBSEClass12{
+margin-bottom: 0.5em;
+color: #808080;
+
+font-family: Red Hat Display;
+font-weight: 900;
+font-size: 1vw;
+}
+
+.Loremipsumdolorsitametconsectetur{
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+font-family: Red Hat Display;
+font-weight: 900;
+font-size: 1vw;
+color: #808080;
+}
+
+.UditNarayan{
+margin-bottom: 0.5em;
+font-family: Red Hat Display;
+font-weight: 900;
+font-size: 1.2vw;
+color: #2851E7;
+
+}
+.DelhiIndia{
+margin-bottom: 0.5em;
+font-family: Red Hat Display;
+font-weight: 900;
+font-size: 1vw;
+color: #808080;
+
+}
+
+.ourresultbutton{
+display: flex;
+}
+
+.ourresultbuttonnext{
+position: absolute;
+background: #2851E7;
+box-shadow: 0px 0px 35px rgba(13, 25, 163, 0.23);
+border-radius:50em;
+right:46vw;
+margin-top:1.5vw;
+border:none;
+height:3vw;
+width:3vw;
+transition:0.3s
+}
+.ourresultbuttonprev{
+position: absolute;
+
+background: #2851E7;
+box-shadow: 0px 0px 2em rgba(13, 25, 163, 0.23);
+border-radius:50em;
+border:none;
+margin-top:1.5vw;
+margin-left:1vw;
+
+left:44.8vw;
+height:3vw;
+width:3vw;
+transition:0.3s;
+
+}
+
+
+.ourresultprev-icon{transform: rotate(-180deg);}
+
+
+
+/*seventhpart  */
+.component-4b{
+
+font-size: 1vw;
+background-color: #2851E7;
+padding-bottom:1.5vw;
+
+}
+
+
+
+.slider-titleb
+{font-family: AvertaStd-Semibold;
+font-size: 1.5vw;
+letter-spacing: 0.03em;
+
+color: #ffffff;
+margin-left: 28em;
+margin-top: 5vw;
+padding-top: 2vw;
+}
+
+.sliderb
+{ padding:0 0 2vw 0 ;
+font-size:1.4vw;
+width:76.9vw;
+overflow:hidden;
+margin:2em 8.29em;
+
+}
+
+.slider-innerb{
+display:flex;
+transition:transform 0.3s;
+}
+
+.box1b
+{ transition: 1s;
+width:76.15vw;
+flex-shrink:0;
+margin-right: 1.7em;
+height:17em;
+background: #FFFFFF;
+box-shadow: .001em .001em .3em rgba(13, 25, 163, 0.25);
+border-radius: 0.5em;
+}
+.video1{
+width:45vw;
+height:17em;
+margin-left: -1.1em;
+margin-top: -1.1em;
+border-top-left-radius: 0.5em;
+border-bottom-left-radius: 0.5em;
+}
+
+.box-labelb{
+
+display: flex;
+padding:1.1em;
+text-align:center;
+font-family: AvertaStd-Semibold;
+letter-spacing: 0.02em;
+}
+.PARAH3BHU{
+text-align: left;
+padding-left: 1em;
+}
+
+.bhup{
+font-family: AvertaStd-Semibold;
+font-size: 1.5vw;
+line-height: 2.5vw;
+/* or 154% */
+
+letter-spacing: 0.02vw;
+
+/* table black text colours */
+
+color: rgba(51, 51, 51, 0.8)
+}
+.bhuh3{
+font-family: AvertaStd-Semibold;
+font-size: 2vw;
+padding-top: 5em;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.02em;
+
+color: #000000;
+
+}
+
+
+
+
+
+/* Slider process start */
+
+.nextnextb
+{
+position:absolute;
+background: #ffffff;
+box-shadow: 0px 0px 35px rgba(13, 25, 163, 0.23);
+border-radius:50em;
+transform:translateY(-170%);
+right:45vw;
+border:none;
+height:3vw;
+width:3vw;
+align-items:center;
+margin-top: 7vw;
+}
+
+.prevprevb
+{
+position:absolute;
+background: #FFFFFF;
+box-shadow: 0px 0px 2em rgba(13, 25, 163, 0.23);
+border-radius:50em;
+border:none;
+transform:translateY(-170%);
+/* display:none; */
+left:46vw;
+height:3vw;
+width:3vw;
+margin-top: 7vw;
+
+}
+
+.bhujk{
+color:#5C5C5C;
+font-size:3vw;
+cursor: pointer;
+}
+
+.prev-iconb{transform: rotate(-180deg);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*eightpart*/
+
+
+
+
+.eightpart{
+margin-left: 5em;
+width: 93.5vw;
+margin-top:4vw ;
+display: flex;
+}
+
+
+
+.eightpartone{
+width: 35.3vw;
+height: 35vw;
+z-index:0;
+position:absolute;
+
+}
+.invertedimg{
+width:12vw ;
+height: 12vw;
+margin-left: 23vw;
+}
+
+
+.eightpartLet’sHearFrom{
+
+font-family: Red Hat Display;
+font-weight: 500;
+font-size: 3.2vw;
+margin-left: 1vw;
+letter-spacing: 0.2vw;
+}
+.eightpartalphalytes{
+font-family: Red Hat Display;
+font-weight: 900;
+font-size: 4.5vw;
+margin-left: 1.1vw;
+}
+.eightpartbuttonnextprev{
+margin-left: 1vw;
+}
+.eightpartnext{
+background: #2851E7;
+box-shadow: 0px 0px 35px rgba(13, 25, 163, 0.23);
+border-radius:50em;
+right:46vw;
+margin-top:1.2vw;
+border:none;
+height:3vw;
+width:3vw;
+transition:0.3s;
+margin-left: 1.5vw;
+}
+
+.eightpartnexticon{
+color:#ffffff;
+font-size:3vw;
+cursor: pointer;
+align-items: center;
+}
+
+.eightpartprev{transform: rotate(-180deg);}
+
+.eightpartprevbuutton{
+background: #2851E7;
+box-shadow: 0px 0px 35px rgba(13, 25, 163, 0.23);
+border-radius:50em;
+right:46vw;
+margin-top:1.2vw;
+border:none;
+height:3vw;
+width:3vw;
+transition:0.3s
+}
+
+.eightparttwo{
+background-color: #F5F8FE;
+z-index:1;
+width: 58.3vw;
+height: 35vw;
+margin-left:35.5vw;
+
+
+}
+
+.eightpartcards{
+display: flex;
+margin-left:-3vw;
+width: 61.03vw;
+height:17.5vw ;
+padding-left:1vw;
+overflow: hidden;
+
+margin-top: 9vw;
+}
+.slider4{display: flex;
+  margin-left:-3vw;
+transition:0.5s;
+  padding-left:2vw;
+  height:17.5vw ;}
+
+.cardnoone{
+width:30vw ;
+height:15vw;
+background-color: rgb(255, 255, 255);
+border-radius: 1.5vw;
+text-align: center;
+box-shadow:0px 0.2em 0.4em rgba(203, 213, 249, 0.5);
+
+}
+.eightpartcardimgone{
+height:6vw ;
+width: 6vw;
+}
+.imgmanedes{
+display: flex;
+align-items: center;
+margin-left: 2.5vw;
+margin-top: 2vw;
+
+}
+.eightpartSunitaKaur{
+font-family: Red Hat Display;
+font-weight: 800;
+font-size: 1.5vw;
+color:#3973E6;
+margin-left: -2.6vw;
+
+}
+.eightpartSoftwareEngineer{
+  font-family: Red Hat Display;
+  font-weight: 500;
+font-size: 1.5vw;
+color: #808080;
+margin-left: 2vw;
+}
+.cardonetext{
+  font-family: Red Hat Display;
+  font-weight: 500;
+font-size: 1vw;
+color: #808080;
+width:26vw;
+margin-left: 3vw;
+margin-top: 0.7vw;
+text-align: left;
+}
+
+
+
+
+
+
+
+.cardnotwo{
+  width:30vw ;
+  height:15vw;
+background-color: rgb(255, 255, 255);
+border-radius: 1.5vw;
+text-align: center;
+margin-left: 3.5vw;
+box-shadow: 0px 0.2em 0.4em rgba(203, 213, 249, 0.5);
+}
+.eightpartDivyaSingh{
+  font-family: Red Hat Display;
+  font-weight: 800;
+font-size: 1.5vw;
+color:#3973E6;
+margin-left: -2vw;
+
+}
+.eightpartProductDesignerr{
+  font-family: Red Hat Display;
+  font-weight: 500;
+font-size: 1.5vw;
+color: #808080;
+margin-left: 2vw;
+}
+
+.cardnothree{
+  width:30vw ;
+  height:15vw;
+background-color: rgb(255, 255, 255);
+border-radius: 1.5vw;
+text-align: center;
+margin-left: 3.5vw;
+box-shadow: 0px 0.2em 0.4em rgba(203, 213, 249, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footerbox{
+  font-size: 1vw;
+}
+
+  .footerbox3{
+    font-size: 1vw;
+text-align: center;
+margin-top:5em ;
+
+  }
+.Mainfooter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+    font-size: 1vw;
+    width: 89.7vw;
+    margin-left: 5.4em;
+}
+.Mainfooter li{
+ 
+  padding-bottom: 1.2vh;
+}
+.he{
+  font-family: AvertaStd-Regular;
+font-size: 1.3vw;
+line-height: 2vw;
+text-align: center;
+letter-spacing: 0.03em;
+width: 90.7vw;
+margin-left:4.4em;
+color: #808080;
+margin-top: 1vw;
+}
+
+.OurBraches{
+  
+  font-family: AvertaStd-Semibold;
+  font-size: 1.5vw;
+  letter-spacing: 0.03vh;
+  line-height:2vh;
+  text-align: left;
+  color:  #000000;padding-right: 1vw;
+padding-bottom: 1vw;
+}
+.tuio
+{
+  font-family: AvertaStd-Regular;
+  font-size: 1.3vw;
+  
+  font-weight: 400;
+letter-spacing: 0.03em;
+line-height:2em;
+text-align: left;
+color:  #808080;
+
+}
+.tuio1{
+  
+  font-family: AvertaStd-Regular;
+ font-size: 1.3vw;
+
+  font-weight: 400;
+letter-spacing: 0.03em;
+padding-left: 2em;
+line-height:2em;
+text-align: left;
+color:  #808080;
+
+}
+
+.QuickLearn{ 
+ 
+  font-family: AvertaStd-Semibold;
+  font-size: 1.5vw;
+  letter-spacing: 0.03vh;
+  line-height:2vh;
+  text-align: left;
+  color:  #000000;
+  padding-bottom: 1vw;
+}
+.tuio2{
+  
+
+    display: flex;
+    font-family: AvertaStd-Regular;
+   font-size: 1.3vw;
+
+    font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height:2em;
+  text-align: left;
+  color:  #808080;}
+.tuio3{
+  font-family: AvertaStd-Regular;
+ font-size: 1.3vw;
+ line-height:2em;
+font-weight: 400;
+letter-spacing: 0.03vh;
+text-align: left;
+color:  #808080;padding-left: 3em;
+}
+.testwala{
+margin-left: 1vh;
+}
+.TestSeries{ font-family: AvertaStd-Semibold;
+  font-size: 1.5vw;
+  letter-spacing: 0.03vh;
+  line-height:2vh;
+  text-align: left;
+  color:  #000000;padding-bottom: 1vw;
+}
+.tuio4{
+  font-family: AvertaStd-Regular;
+ font-size: 1.3vw;
+
+font-weight: 400;
+letter-spacing: 0.03vh;
+line-height:2em;
+text-align: left;
+color:  #808080;}
+.boardwala{
+  padding-left: 1vw;
+}
+.boardexam{font-family: AvertaStd-Semibold;
+  font-size: 1.5vw;
+  letter-spacing: 0.03vh;
+  line-height:2vh;
+  text-align: left;
+  color:  #000000;padding-bottom: 1vw;
+
+
+}
+.tuio5{
+  font-family: AvertaStd-Regular;
+  font-size: 1.3vw;
+  font-weight: 400;
+letter-spacing: 0.03em;
+line-height:2em;
+text-align: left;
+color:  #808080;
+}
+.tuio6{
+  font-family: AvertaStd-Regular;
+ font-size: 1.3vw;
+margin-top: -4em;
+  font-weight: 400;
+letter-spacing: 0.03em;
+line-height:2em;
+
+text-align: left;
+color:  #808080;}
+
+/*------------------------------------ fotter -bottom ---------------------------------------*/
+.fotterbottom{
+  display: flex;
+  width: 89.7vw;
+  margin-left: 5.4em;
+  margin-top: 2.09em;
+}
+
+
+.bottomfont{
+  font-family: AvertaStd-Semibold;
+  font-size: 1.5vw;
+  letter-spacing: 0.03vh;
+  line-height:2vh;
+color: #000000;
+}
+.textfollow{
+  margin-right: 1.7vw;
+}
+.textcontact{
+  margin-right: 5.8vw;
+}
+.followus{
+  margin-left:6.3vw;
+}
+.contactus{
+  margin-left: 3.4vw;
+ 
+}
+
+.textfind{
+  margin-right: 17vw;}
+.findusicons{
+margin-top:1vw;
+margin-left: -2.5vw;
+}
+.findusicons2{
+  font-size: 1.5vw;
+}
+
+.followusicon{
+  margin:1.5vw 0 0 0;
+  
+}
+.contacticons{
+  margin:1.5vw 0 0 4.1vw;
+  
+}
+.contacticons1{
+  font-family: AvertaStd-Regular;
+ font-size: 1.3vw;
+
+letter-spacing: 0.03vh;
+color: #1E67E3;
+
+}
+
+.footericon1{
+  font-size: 1.8vw;
+
+}
+.footericon2{
+  font-size: 1.8vw;
+  margin-left: 1.2vw;
+}
+.footericon3{
+  font-size: 1.7vw;
+  margin-left: 1.2vw;
+}
+.footericon4{
+  font-size: 1.5vw;
+  margin-left: 1.2vw;
+}
+
+.findusicons1{
+  font-family: AvertaStd-Regular;
+ font-size: 1.3vw;
+
+letter-spacing: 0.03vh;
+line-height:1vh;
+color: #1E67E3;
+
+}
+.Copyright2021Al{
+  font-family: AvertaStd-Regular;
+  font-size: 1.3vw;
+  background: #F5F8FE;
+ letter-spacing: 0.03vh;
+ color:  #808080;
+ height: 3vw;
+ margin-top: 1vw;
+ padding-top: 1vw;
+
+}
+.mapweb{
+  width: 20vw;
+  height:15vw;
+margin-left: 0.3vw;
+}
